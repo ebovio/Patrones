@@ -1,0 +1,302 @@
+@startuml
+
+title __MATERIALES's Class Diagram__\n
+
+  namespace Promotores.Materiales {
+    abstract class Promotores.Materiales.Casa {
+        ~ name : String
+        + toString()
+        {abstract} ~ construir()
+        ~ getName()
+        ~ setName()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.CasaBarata {
+        + CasaBarata()
+        ~ construir()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.CasaLujosa {
+        + CasaLujosa()
+        ~ construir()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.CasaMinimalista {
+        + CasaMinimalista()
+        ~ construir()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.CasaModerna {
+        + CasaModerna()
+        ~ construir()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.CasaTest {
+        {static} + main()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    abstract class Promotores.Materiales.Constructora {
+        + orderCasa()
+        {abstract} # createCasa()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.ConstructoraImpl {
+        # createCasa()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.MaterialesCasaBarataFactory {
+        + createPintura()
+        + createPuerta()
+        + createSuelo()
+        + createVentana()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    interface Promotores.Materiales.MaterialesCasaFactory {
+        {abstract} + createPintura()
+        {abstract} + createPuerta()
+        {abstract} + createSuelo()
+        {abstract} + createVentana()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.MaterialesCasaLujosaFactory {
+        + createPintura()
+        + createPuerta()
+        + createSuelo()
+        + createVentana()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.MaterialesCasaMinimalistaFactory {
+        + createPintura()
+        + createPuerta()
+        + createSuelo()
+        + createVentana()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.MaterialesCasaModernaFactory {
+        + createPintura()
+        + createPuerta()
+        + createSuelo()
+        + createVentana()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    interface Promotores.Materiales.Pintura {
+        {abstract} + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.PinturaBarata {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.PinturaLujosa {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.PinturaMinimalista {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.PinturaModerna {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    interface Promotores.Materiales.Puerta {
+        {abstract} + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.PuertaBarata {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.PuertaLujosa {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.PuertaMinimalista {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.PuertaModerna {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    interface Promotores.Materiales.Suelo {
+        {abstract} + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.SueloBarata {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.SueloLujosa {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.SueloMinimalista {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.SueloModerna {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    interface Promotores.Materiales.Ventana {
+        {abstract} + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.VentanaBarata {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.VentanaLujosa {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.VentanaMinimalista {
+        + toString()
+    }
+  }
+  
+
+  namespace Promotores.Materiales {
+    class Promotores.Materiales.VentanaModerna {
+        + toString()
+    }
+  }
+  
+
+  Promotores.Materiales.Casa o-- Promotores.Materiales.Pintura : pintura
+  Promotores.Materiales.Casa o-- Promotores.Materiales.Puerta : puerta
+  Promotores.Materiales.Casa o-- Promotores.Materiales.Suelo : suelo
+  Promotores.Materiales.Casa o-- Promotores.Materiales.Ventana : ventana
+  Promotores.Materiales.CasaBarata -up-|> Promotores.Materiales.Casa
+  Promotores.Materiales.CasaBarata o-- Promotores.Materiales.MaterialesCasaFactory : materialesFactory
+  Promotores.Materiales.CasaLujosa -up-|> Promotores.Materiales.Casa
+  Promotores.Materiales.CasaLujosa o-- Promotores.Materiales.MaterialesCasaFactory : materialesFactory
+  Promotores.Materiales.CasaMinimalista -up-|> Promotores.Materiales.Casa
+  Promotores.Materiales.CasaMinimalista o-- Promotores.Materiales.MaterialesCasaFactory : materialesFactory
+  Promotores.Materiales.CasaModerna -up-|> Promotores.Materiales.Casa
+  Promotores.Materiales.CasaModerna o-- Promotores.Materiales.MaterialesCasaFactory : materialesFactory
+  Promotores.Materiales.ConstructoraImpl -up-|> Promotores.Materiales.Constructora
+  Promotores.Materiales.MaterialesCasaBarataFactory .up.|> Promotores.Materiales.MaterialesCasaFactory
+  Promotores.Materiales.MaterialesCasaLujosaFactory .up.|> Promotores.Materiales.MaterialesCasaFactory
+  Promotores.Materiales.MaterialesCasaMinimalistaFactory .up.|> Promotores.Materiales.MaterialesCasaFactory
+  Promotores.Materiales.MaterialesCasaModernaFactory .up.|> Promotores.Materiales.MaterialesCasaFactory
+  Promotores.Materiales.PinturaBarata .up.|> Promotores.Materiales.Pintura
+  Promotores.Materiales.PinturaLujosa .up.|> Promotores.Materiales.Pintura
+  Promotores.Materiales.PinturaMinimalista .up.|> Promotores.Materiales.Pintura
+  Promotores.Materiales.PinturaModerna .up.|> Promotores.Materiales.Pintura
+  Promotores.Materiales.PuertaBarata .up.|> Promotores.Materiales.Puerta
+  Promotores.Materiales.PuertaLujosa .up.|> Promotores.Materiales.Puerta
+  Promotores.Materiales.PuertaMinimalista .up.|> Promotores.Materiales.Puerta
+  Promotores.Materiales.PuertaModerna .up.|> Promotores.Materiales.Puerta
+  Promotores.Materiales.SueloBarata .up.|> Promotores.Materiales.Suelo
+  Promotores.Materiales.SueloLujosa .up.|> Promotores.Materiales.Suelo
+  Promotores.Materiales.SueloMinimalista .up.|> Promotores.Materiales.Suelo
+  Promotores.Materiales.SueloModerna .up.|> Promotores.Materiales.Suelo
+  Promotores.Materiales.VentanaBarata .up.|> Promotores.Materiales.Ventana
+  Promotores.Materiales.VentanaLujosa .up.|> Promotores.Materiales.Ventana
+  Promotores.Materiales.VentanaMinimalista .up.|> Promotores.Materiales.Ventana
+  Promotores.Materiales.VentanaModerna .up.|> Promotores.Materiales.Ventana
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

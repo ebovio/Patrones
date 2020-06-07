@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="204dd456-2273-45da-ac53-2f320a565fa2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/EjerciciosPatrones.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/EjerciciosPatrones.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/META-INF/Patrones.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/Casa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/CasaBarata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/CasaLujosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/CasaMinimalista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/CasaModerna.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/CasaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/Constructora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/ConstructoraImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/MaterialesCasaBarataFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/MaterialesCasaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/MaterialesCasaLujosaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/MaterialesCasaMinimalistaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/MaterialesCasaModernaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/Pintura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/PinturaBarata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/PinturaLujosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/PinturaMinimalista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/PinturaModerna.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/Puerta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/PuertaBarata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/PuertaLujosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/PuertaMinimalista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/PuertaModerna.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/Suelo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/SueloBarata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/SueloLujosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/SueloMinimalista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/SueloModerna.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/Ventana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/VentanaBarata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/VentanaLujosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/VentanaMinimalista.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Materiales/VentanaModerna.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Compresion/HuffmanCompression$HuffmanNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Compresion/HuffmanCompression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Compresion/ICompresionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Compresion/IMensaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Compresion/LempelZivCompression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Compresion/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Compresion/Mensaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/CompresionDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/EncriptarDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/FirmaDigitalDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/HuffmanCompression$HuffmanNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/HuffmanCompression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/ICompresionStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/IEncriptarDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/IFirmaDigitalDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/IMensaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/LempelZivCompression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/Mensaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Patrones/Software/Contenido/MensajeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendario/Calendario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendario/DecoratorCalendario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendario/PerfilCalendario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendario/PerfilCalendarioAlumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendario/PerfilCalendarioPAS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendario/PerfilCalendarioProfesor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendario/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/Casa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/CasaBarata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/CasaLujosa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/CasaMinimalista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/CasaModerna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/CasaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/Constructora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/ConstructoraImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/MaterialesCasaBarataFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/MaterialesCasaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/MaterialesCasaLujosaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/MaterialesCasaMinimalistaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/MaterialesCasaModernaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/Pintura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/PinturaBarata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/PinturaLujosa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/PinturaMinimalista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/PinturaModerna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/Puerta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/PuertaBarata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/PuertaLujosa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/PuertaMinimalista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/PuertaModerna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/Suelo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/SueloBarata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/SueloLujosa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/SueloMinimalista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/SueloModerna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/Ventana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/VentanaBarata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/VentanaLujosa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/VentanaMinimalista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Materiales/VentanaModerna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Software/Compresion/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Software/Contenido/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cytGv4fVXqSfMg04phnPeTCnQq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.SubastasTest">
+    <configuration name="CasaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Promotores.Materiales.CasaTest" />
+      <module name="Patrones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Promotores.Materiales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompresionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Software.Compresion.CompresionTest" />
+      <module name="Patrones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Software.Compresion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubastasTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Promotores.Subastas.SubastasTest" />
+      <module name="Patrones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Promotores.Subastas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SubastasTest" />
+        <item itemvalue="Application.CasaTest" />
+        <item itemvalue="Application.CompresionTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="204dd456-2273-45da-ac53-2f320a565fa2" name="Default Changelist" comment="" />
+      <created>1591512568569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591512568569</updated>
+      <workItem from="1591512569956" duration="34000" />
+      <workItem from="1591512676675" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
